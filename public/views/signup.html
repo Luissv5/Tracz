@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <title>signup</title>
+</head>
+<body>
+        <h1 class = "form" class = "text">Sign Up</h1>
+
+        <p class = "form">
+          <input class = "bar" ng-model="user.username" placeholder="username"/></br></br>
+          <input class = "bar" ng-model="user.password" type="password" placeholder="password"/></br>
+          <input class = "bar" ng-model="user.password2" type="password" placeholder="retype password"/></br>
+          <button class = "bar" ng-click="signup(user)" class="waves-effect waves-light btn">Sign Up</button>
+        </p>
+
+        
+</body>
+</html>

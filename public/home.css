@@ -1,0 +1,97 @@
+body {
+    margin-left: 20px;
+    background-image: url(http://criticalhit.hu/wp-content/uploads/2018/02/ki_fortnite_18.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    border-radius: 20px;
+    padding: 10px;
+    background: black;
+    opacity: 0.7;
+    width: 1450px;
+    color: hsla(192, 91%, 55%, 0.822);
+    font-family: 'Luckiest Guy', cursive;
+    left: -40px;
+}
+
+.form {
+    position: relative;
+    left: 850px;
+    bottom: -100px;
+    color: hsla(192, 91%, 55%, 0.822);
+    font-family: 'Luckiest Guy', cursive;
+    border-radius: 25px;
+    background: black;
+    padding: 10px; 
+    width: 350px;
+    opacity: 0.7;
+}
+
+.bar {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.navbar {
+    color: hsla(192, 91%, 55%, 0.822);
+    font-family: 'Luckiest Guy', cursive;
+    margin: 20px;
+    width: 1450px;
+    font-size: 30px;
+    background: black;
+    padding: 16px; 
+    opacity: 0.7;
+    position: relative;
+    left: -40px;
+    top: -18px;
+}
+
+.color {
+    color: hsla(192, 91%, 55%, 0.822);
+}
+
+.color:hover {
+    color: white;
+}
+
+.text {
+    color: #b800e6;
+    font-size: 15px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.size {
+    font-size-adjust: 10px;
+}
+
+.center {
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #29a329;
+    margin: 100px;
+}
+
+.center2 {
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #29a329;
+    margin: 100px;
+}
+
+.links {
+    float: right;
+    text-align: left;
+}
+
+
+.movetop {
+    margin-top: 10px;
+}
